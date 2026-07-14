@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+
+# Local tools / generated state
+.esphome/
+esphome_work/
+esphome_2024_work/
+
+# CircuitPython drive noise
+.Trashes
+.Trash-*
+.fseventsd/
+.metadata_never_index
+System Volume Information/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
