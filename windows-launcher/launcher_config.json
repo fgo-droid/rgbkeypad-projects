@@ -1,0 +1,51 @@
+{
+  "port": "COM7",
+  "baudrate": 115200,
+  "actions": {
+    "BTN 0": {
+      "label": "Notepad",
+      "command": "notepad.exe",
+      "color": [255, 255, 255]
+    },
+    "BTN 1": {
+      "label": "Calculator",
+      "command": "calc.exe",
+      "color": [0, 190, 255]
+    },
+    "BTN 2": {
+      "label": "Explorer",
+      "command": "explorer.exe",
+      "color": [255, 210, 25]
+    },
+    "BTN 3": {
+      "label": "Pico folder",
+      "command": "explorer.exe",
+      "args": [
+        "C:\\CoderDojo\\PicoRGBKeyPad"
+      ],
+      "color": [170, 255, 35]
+    },
+    "BTN 4": {
+      "label": "YouTube",
+      "command": "https://www.youtube.com",
+      "color": [255, 0, 0]
+    },
+    "BTN 5": {
+      "label": "Facebook",
+      "command": "https://www.facebook.com",
+      "color": [24, 119, 242]
+    },
+    "BTN 6": {
+      "label": "ChatGPT",
+      "command": "https://chatgpt.com",
+      "color": [255, 255, 255]
+    },
+    "LONG 15": {
+      "label": "Lock workstation",
+      "command": "rundll32.exe",
+      "args": [
+        "user32.dll,LockWorkStation"
+      ]
+    }
+  }
+}
